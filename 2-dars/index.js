@@ -143,7 +143,7 @@ switch (month) {
         break
     case "10" :
         a = Kuz.oy10
-        console.log(`${a} - Kuz fasli`)
+        console.log(`${a} - Kuz fa`)
         break
     case "11" :
         a = Kuz.oy11
