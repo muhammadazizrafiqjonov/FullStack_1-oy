@@ -39,22 +39,34 @@
 // console.log(toq(son))
 
 
-function sum(a){
-    let count = 0
-    while(a){
-        count = count + a % 10
-        a = (a - a % 10) / 10
-    }
+// function sum(a){
+//     let count = 0
+//     while(a){
+//         count = count + a % 10
+//         a = (a - a % 10) / 10
+//     }
 
-    return count
+//     return count
 
+// }
+
+// let son = 15464
+
+
+// console.log(sum(son))
+
+
+function factorial(son) {    
+   
+    if (son == 1) {
+        return son
+    }   
+
+    return son * factorial(son - 1)
 }
 
-let son = 15464
+let son = 17;
 
-
-console.log(sum(son))
-
-
+console.log(factorial(son))
 
 
