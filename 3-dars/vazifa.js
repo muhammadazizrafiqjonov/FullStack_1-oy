@@ -1,7 +1,7 @@
 
 //  4 - masala
 
-// let son = 11, count = 0
+// let son = 14, count = 0
 
 // while(son > 0) {
 //     if (son % 5 == 0){
@@ -11,7 +11,7 @@
 //     else {
 //         son -= 3
 //         if (son < 0){
-//             count = 0
+//             count = -1
 //         }
 //         else {
 //         count +=1
@@ -53,6 +53,9 @@
 //     console.log("Bu son 6 xonali emas")
 // }
 
+//  2- yechim , birinchi bolib biror bir sum degan ozgaruvchiga berilgan 6 xonali sonning oxirgi 3 ta raqamini qoshib boramiz va keyingi 3 ta 
+//  raqamini ayiramiz va sum 0 ga teng bolsa demak chipta omadli boladi.
+
 
 //  6 - masala
 
@@ -85,10 +88,10 @@
 
 //  8 - masala
 
-// let t = 13, T = 20, delay = 0
+// let t = 5, T = 29 , delay = 0
 
 // if ((t + T) >= 24) {
-//     delay = (t + T) - 24
+//     delay = (t + T) % 24
 //     console.log(delay)
 // }
 // else {
@@ -98,7 +101,7 @@
 
 //  9 - masala
 
-// let bosh = 9, panja = 23, count
+// let bosh = 9, panja = 24, count
 
 // if (panja % 2 == 0){
 //     count =  bosh + panja / 2 + 1
